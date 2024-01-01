@@ -1,9 +1,12 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 /*asterisk wildcard selector to override deafault styles added by the browser*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /*general styles*/
 body {
     min-height: 100vh;
@@ -12,16 +15,19 @@ body {
     /*generic project styles*/
     color: #3a3a3a;
 }
+
 /*header*/
 header {
     background-color: lightcoral;
 }
+
 /*main content*/
 main {
     background-color: lightblue;
     /*make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
 }
+
 /*footer*/
 footer {
     background-color: orange;
