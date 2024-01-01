@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     /*generic project styles*/
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /*header*/
